@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#Uklanjanje binarnih fajlova nakon kompajliranja
+ 
+#Uklonimo 'objektne' fajlove
+rm ./src/*.o
+
+#Uklonimo ppu fajlove	
+rm ./src/*.ppu
+
+#Uklonimo izvrsne fajlove
+rm ./src/srdict
+rm ./src/guisrdict

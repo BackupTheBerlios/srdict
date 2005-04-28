@@ -1,0 +1,211 @@
+object MainForm: TMainForm
+  Caption = 'SrDict 0.1 -- englesko<>srpski recnik'
+  ClientHeight = 386
+  ClientWidth = 718
+  Menu = MainMenu1
+  OnCreate = MainFormCreate
+  OnDestroy = MainFormDestroy
+  HorzScrollBar.Page = 719
+  VertScrollBar.Page = 387
+  Left = 278
+  Height = 416
+  Top = 175
+  Width = 718
+  object prevodi: TStringGrid
+    Align = alClient
+    AutoAdvance = aaDown
+    Color = clWhite
+    ColCount = 2
+    DefaultColWidth = 350
+    DefaultRowHeight = 24
+    FixedColor = clBtnFace
+    FixedCols = 0
+    FixedRows = 0
+    GridLineWidth = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goSmoothScroll]
+    RowCount = 1
+    ScrollBars = ssAutoVertical
+    TabOrder = 0
+    TabStop = True
+    VisibleColCount = 2
+    VisibleRowCount = 1
+    Height = 311
+    Top = 75
+    Width = 718
+    ColWidths = (
+      350
+      350
+    )
+    RowHeights = (
+      24
+    )
+    Cells = (
+      0
+    )
+  end
+  object pano: TPanel
+    Align = alTop
+    ClientHeight = 75
+    ClientWidth = 718
+    FullRepaint = False
+    TabOrder = 1
+    TabStop = True
+    Height = 75
+    Width = 718
+    object smer: TComboBox
+      AutoDropDown = True
+      Items.Strings = (
+        'Sa engleskog na srpski'
+        'Sa srpskog na engleski'
+      )
+      MaxLength = 0
+      OnChange = ComboJezikChange
+      ParentCtl3D = False
+      Style = csDropDownList
+      TabOrder = 0
+      Text = 'Sa engleskog na srpski'
+      Left = 136
+      Height = 25
+      Top = 3
+      Width = 200
+    end
+    object LabelSmer: TLabel
+      Caption = 'Smer prevoda:'
+      Left = 8
+      Height = 17
+      Top = 3
+      Width = 120
+    end
+    object LabelNacin: TLabel
+      Caption = 'Nacin prevoda:'
+      Left = 344
+      Height = 17
+      Top = 3
+      Width = 112
+    end
+    object nacin: TComboBox
+      AutoDropDown = True
+      Items.Strings = (
+        'Fraze koje su jednake unetoj'
+        'Fraze koje pocinju unetom'
+        'Fraze koje se zavrsavaju unetom'
+        'Fraze koje sadrze unetu'
+      )
+      MaxLength = 0
+      OnChange = ComboNacinChange
+      ParentCtl3D = False
+      TabOrder = 3
+      Text = 'Fraze koje su jednake unetoj'
+      Left = 456
+      Height = 25
+      Width = 257
+    end
+    object fraza: TComboBox
+      MaxLength = 0
+      ParentCtl3D = False
+      TabOrder = 4
+      Left = 136
+      Height = 24
+      Top = 37
+      Width = 577
+    end
+    object Label1: TButton
+      Caption = 'Fraza za prevod'
+      TabOrder = 5
+      OnClick = PrevediClick
+      Left = 8
+      Height = 24
+      Top = 37
+      Width = 128
+    end
+  end
+  object appProp: TApplicationProperties
+    CaptureExceptions = True
+    HintColor = clInfoBk
+    HintHidePause = 2500
+    HintPause = 500
+    HintShortCuts = True
+    ShowHint = True
+    Title = 'SrDict -- englesko<>srpski recnik 0.1'
+    left = 360
+    top = 664
+  end
+  object MainMenu1: TMainMenu
+    left = 360
+    top = 632
+    object MenuItem1: TMenuItem
+      Caption = '&Akcija'
+      object MenuItem4: TMenuItem
+        Caption = '&Prevedi'
+        ShortCut = 16429
+        OnClick = PrevediClick
+      end
+      object MenuItem5: TMenuItem
+        Caption = '&Ocisti istoriju'
+        OnClick = ClearClick
+      end
+      object MenuItem15: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem7: TMenuItem
+        Caption = '&Izlaz'
+        OnClick = CloseClick
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = '&Podesavanja'
+      object MenuItem8: TMenuItem
+        Caption = 'Prevod sa &engleskog na srpski'
+        Checked = True
+        GroupIndex = 1
+        RadioItem = True
+        OnClick = PromenaJezika
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Prevod sa &srpskog na engleski'
+        GroupIndex = 1
+        RadioItem = True
+        OnClick = PromenaJezika
+        Tag = 1
+      end
+      object MenuItem14: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem9: TMenuItem
+        Caption = 'Pronadji fraze koje &pocinju unetom'
+        GroupIndex = 2
+        RadioItem = True
+        OnClick = PromenaNacina
+        Tag = 1
+      end
+      object MenuItem10: TMenuItem
+        Caption = 'Pronadji fraze koje se &zavrsavaju unetom'
+        GroupIndex = 2
+        RadioItem = True
+        OnClick = PromenaNacina
+        Tag = 2
+      end
+      object MenuItem11: TMenuItem
+        Caption = 'Pronadji fraze koje su &jednake unetoj'
+        Checked = True
+        GroupIndex = 2
+        RadioItem = True
+        OnClick = PromenaNacina
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Pronadji fraze &u kojima se sadrzi uneta'
+        GroupIndex = 2
+        RadioItem = True
+        OnClick = PromenaNacina
+        Tag = 3
+      end
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'P&omoc'
+      object MenuItem13: TMenuItem
+        Caption = '&O programu'
+        OnClick = AboutClick
+      end
+    end
+  end
+end

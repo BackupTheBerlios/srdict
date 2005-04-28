@@ -1,0 +1,61 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TMainForm','FORMDATA',[
+  'TPF0'#9'TMainForm'#8'MainForm'#7'Caption'#6'%SrDict 0.1 -- englesko<>srpski '
+  +'recnik'#12'ClientHeight'#3#130#1#11'ClientWidth'#3#206#2#4'Menu'#7#9'MainMe'
+  +'nu1'#8'OnCreate'#7#14'MainFormCreate'#9'OnDestroy'#7#15'MainFormDestroy'#18
+  +'HorzScrollBar.Page'#3#207#2#18'VertScrollBar.Page'#3#131#1#4'Left'#3#22#1#6
+  +'Height'#3#160#1#3'Top'#3#175#0#5'Width'#3#206#2#0#11'TStringGrid'#7'prevodi'
+  +#5'Align'#7#8'alClient'#11'AutoAdvance'#7#6'aaDown'#5'Color'#7#7'clWhite'#8
+  +'ColCount'#2#2#15'DefaultColWidth'#3'^'#1#16'DefaultRowHeight'#2#24#10'Fixed'
+  +'Color'#7#9'clBtnFace'#9'FixedCols'#2#0#9'FixedRows'#2#0#13'GridLineWidth'#2
+  +#0#7'Options'#11#15'goFixedVertLine'#15'goFixedHorzLine'#10'goVertLine'#10'g'
+  +'oHorzLine'#13'goRangeSelect'#14'goSmoothScroll'#0#8'RowCount'#2#1#10'Scroll'
+  +'Bars'#7#14'ssAutoVertical'#8'TabOrder'#2#0#7'TabStop'#9#15'VisibleColCount'
+  +#2#2#15'VisibleRowCount'#2#1#6'Height'#3'7'#1#3'Top'#2'K'#5'Width'#3#206#2#9
+  +'ColWidths'#1#3'^'#1#3'^'#1#0#10'RowHeights'#1#2#24#0#5'Cells'#1#2#0#0#0#0#6
+  +'TPanel'#4'pano'#5'Align'#7#5'alTop'#12'ClientHeight'#2'K'#11'ClientWidth'#3
+  +#206#2#11'FullRepaint'#8#8'TabOrder'#2#1#7'TabStop'#9#6'Height'#2'K'#5'Width'
+  +#3#206#2#0#9'TComboBox'#4'smer'#12'AutoDropDown'#9#13'Items.Strings'#1#6#22
+  +'Sa engleskog na srpski'#6#22'Sa srpskog na engleski'#0#9'MaxLength'#2#0#8'O'
+  +'nChange'#7#16'ComboJezikChange'#11'ParentCtl3D'#8#5'Style'#7#14'csDropDownL'
+  +'ist'#8'TabOrder'#2#0#4'Text'#6#22'Sa engleskog na srpski'#4'Left'#3#136#0#6
+  +'Height'#2#25#3'Top'#2#3#5'Width'#3#200#0#0#0#6'TLabel'#9'LabelSmer'#7'Capti'
+  +'on'#6#13'Smer prevoda:'#4'Left'#2#8#6'Height'#2#17#3'Top'#2#3#5'Width'#2'x'
+  +#0#0#6'TLabel'#10'LabelNacin'#7'Caption'#6#14'Nacin prevoda:'#4'Left'#3'X'#1
+  +#6'Height'#2#17#3'Top'#2#3#5'Width'#2'p'#0#0#9'TComboBox'#5'nacin'#12'AutoDr'
+  +'opDown'#9#13'Items.Strings'#1#6#28'Fraze koje su jednake unetoj'#6#25'Fraze'
+  +' koje pocinju unetom'#6#31'Fraze koje se zavrsavaju unetom'#6#23'Fraze koje'
+  +' sadrze unetu'#0#9'MaxLength'#2#0#8'OnChange'#7#16'ComboNacinChange'#11'Par'
+  +'entCtl3D'#8#8'TabOrder'#2#3#4'Text'#6#28'Fraze koje su jednake unetoj'#4'Le'
+  +'ft'#3#200#1#6'Height'#2#25#5'Width'#3#1#1#0#0#9'TComboBox'#5'fraza'#9'MaxLe'
+  +'ngth'#2#0#11'ParentCtl3D'#8#8'TabOrder'#2#4#4'Left'#3#136#0#6'Height'#2#24#3
+  +'Top'#2'%'#5'Width'#3'A'#2#0#0#7'TButton'#6'Label1'#7'Caption'#6#15'Fraza za'
+  +' prevod'#8'TabOrder'#2#5#7'OnClick'#7#12'PrevediClick'#4'Left'#2#8#6'Height'
+  +#2#24#3'Top'#2'%'#5'Width'#3#128#0#0#0#0#22'TApplicationProperties'#7'appPro'
+  +'p'#17'CaptureExceptions'#9#9'HintColor'#7#8'clInfoBk'#13'HintHidePause'#3
+  +#196#9#9'HintPause'#3#244#1#13'HintShortCuts'#9#8'ShowHint'#9#5'Title'#6'%Sr'
+  +'Dict -- englesko<>srpski recnik 0.1'#4'left'#3'h'#1#3'top'#3#152#2#0#0#9'TM'
+  +'ainMenu'#9'MainMenu1'#4'left'#3'h'#1#3'top'#3'x'#2#0#9'TMenuItem'#9'MenuIte'
+  +'m1'#7'Caption'#6#7'&Akcija'#0#9'TMenuItem'#9'MenuItem4'#7'Caption'#6#8'&Pre'
+  +'vedi'#8'ShortCut'#3'-@'#7'OnClick'#7#12'PrevediClick'#0#0#9'TMenuItem'#9'Me'
+  +'nuItem5'#7'Caption'#6#16'&Ocisti istoriju'#7'OnClick'#7#10'ClearClick'#0#0#9
+  +'TMenuItem'#10'MenuItem15'#7'Caption'#6#1'-'#0#0#9'TMenuItem'#9'MenuItem7'#7
+  +'Caption'#6#6'&Izlaz'#7'OnClick'#7#10'CloseClick'#0#0#0#9'TMenuItem'#9'MenuI'
+  +'tem2'#7'Caption'#6#12'&Podesavanja'#0#9'TMenuItem'#9'MenuItem8'#7'Caption'#6
+  +#30'Prevod sa &engleskog na srpski'#7'Checked'#9#10'GroupIndex'#2#1#9'RadioI'
+  +'tem'#9#7'OnClick'#7#13'PromenaJezika'#0#0#9'TMenuItem'#9'MenuItem6'#7'Capti'
+  +'on'#6#30'Prevod sa &srpskog na engleski'#10'GroupIndex'#2#1#9'RadioItem'#9#7
+  +'OnClick'#7#13'PromenaJezika'#3'Tag'#2#1#0#0#9'TMenuItem'#10'MenuItem14'#7'C'
+  +'aption'#6#1'-'#0#0#9'TMenuItem'#9'MenuItem9'#7'Caption'#6'#Pronadji fraze k'
+  +'oje &pocinju unetom'#10'GroupIndex'#2#2#9'RadioItem'#9#7'OnClick'#7#13'Prom'
+  +'enaNacina'#3'Tag'#2#1#0#0#9'TMenuItem'#10'MenuItem10'#7'Caption'#6')Pronadj'
+  +'i fraze koje se &zavrsavaju unetom'#10'GroupIndex'#2#2#9'RadioItem'#9#7'OnC'
+  +'lick'#7#13'PromenaNacina'#3'Tag'#2#2#0#0#9'TMenuItem'#10'MenuItem11'#7'Capt'
+  +'ion'#6'&Pronadji fraze koje su &jednake unetoj'#7'Checked'#9#10'GroupIndex'
+  +#2#2#9'RadioItem'#9#7'OnClick'#7#13'PromenaNacina'#0#0#9'TMenuItem'#10'MenuI'
+  +'tem12'#7'Caption'#6'(Pronadji fraze &u kojima se sadrzi uneta'#10'GroupInde'
+  +'x'#2#2#9'RadioItem'#9#7'OnClick'#7#13'PromenaNacina'#3'Tag'#2#3#0#0#0#9'TMe'
+  +'nuItem'#9'MenuItem3'#7'Caption'#6#6'P&omoc'#0#9'TMenuItem'#10'MenuItem13'#7
+  +'Caption'#6#11'&O programu'#7'OnClick'#7#10'AboutClick'#0#0#0#0#0
+]);

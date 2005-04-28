@@ -1,0 +1,23 @@
+#!/bin/bash
+ 
+#Pravimo stablo direktorijuma
+mkdir /usr/local/srdict
+mkdir /usr/local/srdict/base
+mkdir /usr/local/srdict/base/en2sr
+mkdir /usr/local/srdict/base/sr2en
+
+#Kopiramo potrebne fajlove
+cp -a ./src/srdict /usr/local/srdict/srdict
+cp -a ./src/guisrdict /usr/local/srdict/guisrdict
+cp -a ./src/base/en2sr/* /usr/local/srdict/base/en2sr
+cp -a ./src/base/sr2en/* /usr/local/srdict/base/sr2en
+
+#Dodeljujemo odgovarajuce dozvole
+chmod o+x /usr/local/srdict/srdict
+chmod o+x /usr/local/srdict/guisrdict
+chmod o+r /usr/local/srdict/base/en2sr/*
+chmod o+r /usr/local/srdict/base/sr2en/*
+
+#Pravimo linkove u /usr/bin
+ln /usr/local/srdict/srdict /usr/bin/srdict -s
+ln /usr/local/srdict/guisrdict /usr/bin/guisrdict -s

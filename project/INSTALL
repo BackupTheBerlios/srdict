@@ -1,0 +1,59 @@
+Instalacija programa
+====================
+
+Program je u obliku izvornog koda i prvo ga morate kompajlirati.
+Ovo se moze uraditi pokretanje skripte 'compile' u ovom direktorijumu.
+Dakle nako sto ste raspakovali arhivu sa programom udjite u direktorijum
+u koji je raspakovana pomocu 'cd dir_name' i ukucajte
+
+./compile
+
+Za kompajlirenje vam je potreban Free Pascal Compiler (fpc). Preporucujemo 
+verziju 1.9 ili noviju. Takodje su potrebni gtk i fcl moduli za rad sa
+GUI verzijom recnika. Za pokretanje skripti je potreban Bourne Again Shell.
+
+Ovako iskompajliran program mozete pokrenuti tako sto pokrenete jedan od
+fajlova:
+
+./src/srdict
+./src/guisrdict
+
+Da bi ste svim korisnicima Vaseg sistema omogucili pokretanje programa
+udjite u direktorijum u koji je arhiva sa programom raspakovana i 
+pokrenite skriptu 'install' sa:
+
+./install
+
+Ovo morate uraditi kao root ili kao korisnik koji ima dovoljno privilegija,
+sto se pre svega odnosi na privilegije pisanja u direktorijumima
+/usr/local i /usr/bin
+
+
+
+Pokretanje programa
+===================
+
+Jednon instalirani program mozete pokrenuti sa 
+
+$ srdict
+
+u modu za komandnu liniju, ili sa
+
+$ guisrdict
+
+u modu sa grafickim korisnickim interfejsom.
+
+
+
+Uklanjanje programa
+===================
+
+Instalirani program uklanjate tako sto pokrenete skriptu 'uninstall' iz direktorijuma
+u kom je raspakovana arhiva sa programom. Ovo morate da uradite kao root ili kao korisnik
+koji je pokrenuo skriptu 'install'.
+
+Brisanje binarnih fajlova koji se kreiraju prilikom kompajliranja vrsi se skriptom
+'clear' iz istog direktorijuma.
+
+
+

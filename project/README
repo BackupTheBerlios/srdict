@@ -1,0 +1,42 @@
+Primetio sam da mi u radu na mom omiljenom sistemu ;) cesto nedostaje jedan
+srpsko-engleski recnik sa GUI-em. Ovo je, nadam se, pocetak stvaranja takvog
+programa.
+
+Za instalacione instrukcije pogledajte fajl INSTALL u ovom direktorijumu.
+Program je pod GNU/GPL licencom i za vise informacija pogledajte
+fajl COPYING u ovom direktorijumu.
+
+Konzolnu verziju programa koristite na sledeci nacin
+
+$ srdict [-options] rec [rec [rec ...]]
+
+'options' predstavlja niz od dva slova. Jedno od njih je jezik sa kog se prevodi,
+tako da 's' oznacava prevod sa srpskog na engleski a 'e' sa engleskog na srpski.
+Drugo je oznaka za nacin prevoda i moze biti:
+'c' - traze se reci jednake unetoj
+'p' - traze se reci koje pocinju unetom
+'k' - traze se reci koje se zavrsavaju unetom
+'d' - traze se reci koje sadrze unetu na bilo kom mestu
+
+Podrazumevan je switch -ec
+Redosled i velicina slova nije bitna. Moze se i izostaviti jedno ili oba.
+
+Dalje sledi niska reci za prevod. N. pr:
+
+$ srdict -sc nebo racunar
+...ce potraziti srpske reci nebo i racunar i prevesti ih na engleski
+
+$ srdict -p back
+...ce potraziti reci engleskog jezika koje pocinju sa 'back'
+
+Moguca je i proizvoljna kombinacija, npr.:
+
+$ srdict -sc nebo racunar -PE back -c flower
+...ce uraditi isto sto i predhodne dve komande i jos potraziti englesku rec 'flower'
+
+
+GUI verzija je nadam se dosta intuitivna ;)
+
+Hvala Vam sto koristite SrDict.
+Vas Srdjan Rilak,
+rile@users.sourceforge.net

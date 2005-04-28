@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="3"/>
+    <General>
+      <ProjectType Value="Application"/>
+      <MainUnit Value="0"/>
+      <ActiveEditorIndexAtStart Value="1"/>
+      <IconPath Value="./"/>
+      <TargetFileExt Value=""/>
+      <Title Value="guisrdict"/>
+    </General>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/grids.pas"/>
+        <Caret Line="27" Column="39" TopLine="10"/>
+      </Position1>
+      <Position2>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/grids.pas"/>
+        <Caret Line="158" Column="40" TopLine="141"/>
+      </Position2>
+      <Position3>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/forms.pp"/>
+        <Caret Line="46" Column="35" TopLine="29"/>
+      </Position3>
+      <Position4>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Caret Line="1" Column="1" TopLine="1"/>
+      </Position4>
+      <Position5>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Caret Line="178" Column="12" TopLine="161"/>
+      </Position5>
+      <Position6>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Caret Line="208" Column="23" TopLine="191"/>
+      </Position6>
+      <Position7>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Caret Line="249" Column="39" TopLine="232"/>
+      </Position7>
+      <Position8>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Caret Line="289" Column="30" TopLine="272"/>
+      </Position8>
+      <Position9>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/controls.pp"/>
+        <Caret Line="3215" Column="20" TopLine="1"/>
+      </Position9>
+      <Position10>
+        <Filename Value="about.pas"/>
+        <Caret Line="22" Column="55" TopLine="1"/>
+      </Position10>
+    </JumpHistory>
+    <Units Count="11">
+      <Unit0>
+        <CursorPos X="27" Y="7"/>
+        <EditorIndex Value="8"/>
+        <Filename Value="guisrdict.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <TopLine Value="1"/>
+        <UnitName Value="guisrdict"/>
+        <UsageCount Value="22"/>
+      </Unit0>
+      <Unit1>
+        <CursorPos X="20" Y="16"/>
+        <EditorIndex Value="0"/>
+        <Filename Value="mainsrdict.pas"/>
+        <ComponentName Value="MainForm"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="mainsrdict.lrs"/>
+        <TopLine Value="1"/>
+        <UnitName Value="MainSrDict"/>
+        <UsageCount Value="22"/>
+      </Unit1>
+      <Unit2>
+        <CursorPos X="35" Y="46"/>
+        <EditorIndex Value="7"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/forms.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="29"/>
+        <UnitName Value="Forms"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+      <Unit3>
+        <CursorPos X="17" Y="277"/>
+        <EditorIndex Value="9"/>
+        <Filename Value="translator.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="260"/>
+        <UnitName Value="translator"/>
+        <UsageCount Value="11"/>
+      </Unit3>
+      <Unit4>
+        <CursorPos X="14" Y="660"/>
+        <EditorIndex Value="6"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/grids.pas"/>
+        <Loaded Value="True"/>
+        <TopLine Value="553"/>
+        <UnitName Value="Grids"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <CursorPos X="78" Y="43"/>
+        <EditorIndex Value="3"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/controls.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="36"/>
+        <UnitName Value="Controls"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <CursorPos X="33" Y="35"/>
+        <EditorIndex Value="2"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/stdctrls.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="28"/>
+        <UnitName Value="StdCtrls"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <CursorPos X="3" Y="30"/>
+        <EditorIndex Value="5"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/lclclasses.pp"/>
+        <Loaded Value="True"/>
+        <TopLine Value="17"/>
+        <UnitName Value="LCLClasses"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <CursorPos X="1" Y="1"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/vclglobals.pp"/>
+        <TopLine Value="1"/>
+        <UnitName Value="VCLGlobals"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <CursorPos X="1" Y="1"/>
+        <EditorIndex Value="4"/>
+        <Filename Value="/home/rile/instalacije/lazarus/lcl/lclproc.pas"/>
+        <Loaded Value="True"/>
+        <TopLine Value="707"/>
+        <UnitName Value="LCLProc"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <CursorPos X="55" Y="22"/>
+        <EditorIndex Value="1"/>
+        <Filename Value="about.pas"/>
+        <ComponentName Value="Form1"/>
+        <IsPartOfProject Value="True"/>
+        <Loaded Value="True"/>
+        <ResourceFilename Value="about.lrs"/>
+        <TopLine Value="1"/>
+        <UnitName Value="about"/>
+        <UsageCount Value="20"/>
+      </Unit10>
+    </Units>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+    </RequiredPackages>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="2"/>
+    <SearchPaths>
+      <SrcPath Value="$(LazarusDir)/lcl/;$(LazarusDir)/lcl/interfaces/$(LCLWidgetType)/"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Generate Value="Faster"/>
+    </CodeGeneration>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#Za kompajliranje Vam je potreban fpc (preporuka 1.9 ili noviji)
+#i fcl i gtk uniti za isti
+
+#Kompajliramo translator.pp
+fpc ./src/translator.pp
+
+#Kompajliramo i povezujemo srdict.pp
+fpc ./src/srdict.pp
+
+#Kompajliramo about.pas
+fpc ./src/about.pas
+
+#Kompajliramo mainsrdict.pas
+fpc ./src/mainsrdict.pas
+
+#Kompajliramo i povezujemo guisrdict.lpr
+fpc ./src/guisrdict.lpr

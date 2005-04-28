@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#Uklanjanje instaliranog programa sa sistema
+ 
+#Uklanjanje linkova a zatim i fajlova koji su iskopirani
+rm /usr/bin/srdict
+rm /usr/bin/guisrdict
+rm /usr/local/srdict/srdict
+rm /usr/local/srdict/guisrdict
+rm /usr/local/srdict/base/en2sr/*
+rm /usr/local/srdict/base/sr2en/*
+
+#Uklanjanje stabla direktorijuma
+rmdir /usr/local/srdict/base/en2sr
+rmdir /usr/local/srdict/base/sr2en
+rmdir /usr/local/srdict/base
+rmdir /usr/local/srdict
